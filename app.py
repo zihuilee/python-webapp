@@ -1,9 +1,11 @@
-import logging; logging.basicConfig(level=logging.INFO)
+import logging
 
 import asyncio, os, json, time
 from datetime import datetime
 
 from aiohttp import web
+
+logging.basicConfig(level=logging.INFO)
 
 
 def index(request):
